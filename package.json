@@ -1,0 +1,27 @@
+{
+  "name": "json-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "json2json": "./json2json.js",
+    "round": "./round.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangweis/json-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangweis/json-tools/issues"
+  },
+  "homepage": "https://github.com/zhangweis/json-tools#readme",
+  "dependencies": {
+    "get-stdin": "^7.0.0",
+    "round-to": "^4.1.0"
+  }
+}
