@@ -6,7 +6,8 @@ module.exports = async function (func) {
     if (output==undefined) return;  
     console.log(JSON.stringify(output));
     }catch(e) {
-        console.error(e.stack);
+        console.error("[json2json] error happens:")
+        console.error(e);
         process.exit(1);
     }
 }
